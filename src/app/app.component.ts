@@ -4,19 +4,19 @@ import * as Storage from '@spica-devkit/storage';
 import { IData } from 'src/Interface/Interface';
 
 Bucket.initialize({
-  publicUrl: 'https://intership-test-1ae96.hq.spicaengine.com/api',
+  publicUrl: '< url >',
   identity:
     '< identity key >',
 });
 
 Bucket.initialize({
-  publicUrl: 'https://intership-test-1ae96.hq.spicaengine.com/api',
+  publicUrl: '< url >',
   apikey:
     '< api key >',
 });
 
 Storage.initialize({
-  publicUrl: 'https://intership-test-1ae96.hq.spicaengine.com/api',
+  publicUrl: '< url >',
   identity:
     '< identity key >',
 });
